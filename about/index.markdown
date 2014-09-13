@@ -1,16 +1,14 @@
 ---
 layout: page
-title: About Gereksiz
+title: About Steve
 ---
 
-Gereksiz is a minimalist Jekyll theme, based on the default Jekyll theme. It is responsive, generates JSON and Atom feeds on each build, and can be easily extended. It uses Open Sans from Google Fonts.
+I'm a sysadmin at a university. I spend most of my time these days working on an OpenStack cloud, writing puppet manifests, and deploying linux systems. When I'm not being angry at computers, I enjoy brewing and tasting fine beers, cycling, playing hockey, and hiking.
 
-> It supports blockquotes, too.
+## Me on the Internet
 
-## Gereksiz on the Internet
+* [See my terrible code on GitHub][github]
+* [Tweet at me on Twitter][twitter]
 
-* [Gereksiz][github] on GitHub
-* [Bugs of Berk][bob], theme creator's website
-
-[github]: https://github.com/berkoz/gereksiz/
-[bob]: http://bugsofberk.net
+[github]: https://github.com/sjahl
+[twitter]: https://twitter.com/roguetortoise
