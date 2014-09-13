@@ -1,4 +1,4 @@
-name: "Distributed Mistakes As A Service"
+name: "Distributed Typos As A Service"
 markdown: redcarpet
 highlighter: pygments
 permalink: :title
