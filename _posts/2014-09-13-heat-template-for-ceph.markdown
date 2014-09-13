@@ -14,15 +14,15 @@ I've tested this template with an Icehouse cloud running on a mix of Ubuntu prec
 
 There are three main sections to a heat template:
 
-1.   The *parameters* section is where required values are placed. 
+1. The *parameters* section is where required values are placed. 
 
     The items in this section are what appear on the "Launch Stack" interface when booting a stack in horizon. Values are either defined statically, or defaults can be given, which auto-fill in the web interface. An item without a value or default produces an empty form field in the horizon interface, and you (or the user) are required to fill the value.
 
-2.   The *resources* section defines the various OpenStack pieces that make up the stack. 
+2. The *resources* section defines the various OpenStack pieces that make up the stack. 
 
     In the case of this template, we are defining three instances, volumes, attachments, and neutron ports. We can retrieve values from the parameters with the `get_param` keyword. Other resources in this section can be referenced with the `get_resource` keyword. This is how I've associated volume attachments between their respective volumes and instances.
 
-3.   The *outputs* section is for retrieving values that are displayed once the stack has been created. 
+3. The *outputs* section is for retrieving values that are displayed once the stack has been created. 
 
     I've used this for retrieving the IPs of the instances that have been launched (see the `get_attr` keyword) so that I don't have to go digging through the web interface for them -- they're all aggregated in the Stack Detail Overview in horizon for easy viewing.
 
