@@ -1,7 +1,7 @@
 name: "Distributed Typos As A Service"
 markdown: redcarpet
 highlighter: pygments
-permalink: :title
+permalink: pretty
 exclude: [README.md, LICENSE, Makefile]
 
 # Information for the Atom feed
