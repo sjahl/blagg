@@ -3,7 +3,7 @@ layout: page
 title: About Steve
 ---
 
-I'm a sysadmin at a university. I spend most of my time these days working on an OpenStack cloud, writing puppet manifests, and deploying linux systems. When I'm not being angry at computers, I enjoy brewing and tasting fine beers, cycling, playing hockey, and hiking.
+I'm a sysadmin at a university. I spend most of my time these days herding linux servers, working on an OpenStack cloud, and writing puppet manifests. When I'm not being angry at computers, I enjoy brewing and tasting fine beers, cycling, playing hockey, and hiking.
 
 ## Me on the Internet
 
